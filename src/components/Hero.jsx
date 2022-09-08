@@ -5,6 +5,8 @@ import { Container } from '@/components/Container'
 import logoR1 from '@/images/logos/r1.png'
 import logoR2 from '@/images/logos/r2.png'
 import logoR3 from '@/images/logos/r3.png'
+import logoR4 from '@/images/logos/r4.png'
+ 
  
 export function Hero() {
   return (
@@ -29,7 +31,7 @@ export function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://youtu.be/5zSr8PpvKUM"
           variant="outline"
         >
           <svg
@@ -50,6 +52,7 @@ export function Hero() {
           {[
             [
               { name: 'LA Unified School District', logo: logoR1 },
+              { name: 'Tuple', logo: logoR4 },
               { name: 'Tuple', logo: logoR2 },
               { name: 'StaticKit', logo: logoR3 },
             ],
