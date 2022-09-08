@@ -99,6 +99,7 @@ export function Header() {
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Features</NavLink>
+              <NavLink href="#videos">Video</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
             </div>
           </div>
@@ -106,7 +107,7 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div>
-            <Button href="/register" color="blue">
+            <Button href="https://www.starcoder.us/" color="blue">
               <span>
                 Start <span className="hidden lg:inline">coding</span>
               </span>

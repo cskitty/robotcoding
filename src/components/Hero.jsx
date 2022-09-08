@@ -31,7 +31,7 @@ export function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button
-          href="https://youtu.be/5zSr8PpvKUM"
+           href="#videos"
           variant="outline"
         >
           <svg
