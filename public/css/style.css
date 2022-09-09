@@ -75,6 +75,10 @@ body {
     justify-content: space-between;
 }
 
+/* #to-home {
+    background-color: #a0c5cf;
+} */
+
 .page > .main > .center {
 
 }
@@ -301,7 +305,7 @@ ul.switch-mode > li:last-child {
     font-size: 22px;
     margin-right: 14px;
     border: none;
-    background-color: #34495E;
+    background-color: #24506b;
     color: #FFF;
 }
 
