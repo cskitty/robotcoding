@@ -114,8 +114,8 @@ export function Pricing() {
           </p>
         </div>
            
-        <div class="grid place-items-center aspect-w-6 aspect-h-16 ">
-<iframe width="500" height="560" src="https://www.youtube.com/embed/eJhlsib9YmI?controls=0&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <div className="grid place-items-center aspect-w-6 aspect-h-16 ">
+<iframe width="500" height="560" src="https://www.youtube.com/embed/eJhlsib9YmI?controls=0&amp;start=5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
         </div>
         
       </Container>

@@ -1,0 +1,12 @@
+[
+  {
+    "id":101,
+    "name":"YYMiniCar",
+    "icon":"/extension/icons/yyminicar.jpg",
+    "file":"yyminicar.py",
+    "desc":"Windtree Junior Robotic Car",
+    "ver":"1.1",
+    "color":"#333333"
+  }
+  
+]
