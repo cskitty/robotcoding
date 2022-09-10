@@ -1,6 +1,6 @@
 addBoard({
   id: 'raspberry-pi-pico',
-  name: 'Y&Y',
+  name: 'Windtree Signature Robotics',
   description: '',
   image: 'images/yy.png',
   uploadMode: 'REPL',

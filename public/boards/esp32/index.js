@@ -1,6 +1,6 @@
 addBoard({
   id: 'esp32',
-  name: 'ESP32',
+  name: 'Windtree Junior Robotics',
   description: '',
   image: 'images/cover.jpg',
   chip: 'ESP32',
