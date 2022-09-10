@@ -1,88 +1,88 @@
 addBoard({
-  id: "yy-v1.0",
-  name: "Windtree Ball Server(PICO) v1.0",
-  description: "",
-  image: "images/yyv1.0.jpg",
-  uploadMode: "REPL",
-  chip: "RP2",
-  script: ["../raspberry-pi-pico/js/field_dotmatrix.js"],
-  css: ["../raspberry-pi-pico/css/field_dotmatrix.css"],
+  id: 'yy-v1.0',
+  name: 'Windtree Ball Server(PICO) v1.0',
+  description: '',
+  image: 'images/yyv1.0.jpg',
+  uploadMode: 'REPL',
+  chip: 'RP2',
+  script: ['../raspberry-pi-pico/js/field_dotmatrix.js'],
+  css: ['../raspberry-pi-pico/css/field_dotmatrix.css'],
   blocks: [
-    "blocks/blocks_car.js",
-    "../raspberry-pi-pico/blocks/blocks_pin.js",
-    "../raspberry-pi-pico/blocks/blocks_advanced.js",
-    "blocks/blocks_servo.js",
-    "../raspberry-pi-pico/blocks/blocks_display.js",
+    'blocks/blocks_car.js',
+    '../raspberry-pi-pico/blocks/blocks_pin.js',
+    '../raspberry-pi-pico/blocks/blocks_advanced.js',
+    'blocks/blocks_servo.js',
+    '../raspberry-pi-pico/blocks/blocks_display.js',
     //"blocks/blocks_gerora.js",
-    "../raspberry-pi-pico/blocks/blocks_joystick.js",
+    '../raspberry-pi-pico/blocks/blocks_joystick.js',
     //"blocks/blocks_sound.js",
-    "blocks/blocks_ball.js",
+    'blocks/blocks_ball.js',
     //"blocks/blocks_switch.js",
     //"blocks/blocks_input.js",
     //"blocks/blocks_tcs3472.js",
     //"blocks/blocks_motor.js",
     //"blocks/blocks_l298n.js",
-    "blocks/blocks_v1.js",
+    'blocks/blocks_v1.js',
 
-    "blocks/generators_car.js",
-    "../raspberry-pi-pico/blocks/generators_pin.js",
-    "../raspberry-pi-pico/blocks/generators_avanced.js",
-    "blocks/generators_servo.js",
-    "../raspberry-pi-pico/blocks/generators_display.js",
+    'blocks/generators_car.js',
+    '../raspberry-pi-pico/blocks/generators_pin.js',
+    '../raspberry-pi-pico/blocks/generators_avanced.js',
+    'blocks/generators_servo.js',
+    '../raspberry-pi-pico/blocks/generators_display.js',
     //"blocks/generators_gerora.js",
     //"blocks/generators_sound.js",
-    "../raspberry-pi-pico/blocks/generators_joystick.js",
-    "blocks/generators_ball.js",
+    '../raspberry-pi-pico/blocks/generators_joystick.js',
+    'blocks/generators_ball.js',
     //"blocks/generators_switch.js",
     //"blocks/generators_input.js",
     //"blocks/generators_tcs3472.js",
     //"blocks/generators_motor.js",
     //"blocks/generators_l298n.js",
-    "blocks/generators_v1.js",
+    'blocks/generators_v1.js',
   ],
   modules: [],
   examples: [
-    "高级",
+    '高级',
     {
-      name: "Ball server",
-      files: "examples/shoot",
+      name: 'Ball server',
+      files: 'examples/shoot',
     },
   ],
   firmware: [
     {
-      name: "MicroPython for Raspberry Pi Pico V1.17",
-      path: "firmware/rp2-pico-20210902-v1.17.uf2",
-      version: "v1.17",
-      date: "2021-09-02",
-      board: "Raspberry Pi Pico",
-      cpu: "RP2040",
+      name: 'MicroPython for Raspberry Pi Pico V1.17',
+      path: 'firmware/rp2-pico-20210902-v1.17.uf2',
+      version: 'v1.17',
+      date: '2021-09-02',
+      board: 'Raspberry Pi Pico',
+      cpu: 'RP2040',
     },
   ],
   usb: [
     {
-      vendorId: "2E8A",
-      productId: "0005",
+      vendorId: '2E8A',
+      productId: '0005',
     },
   ],
   autoCompletion: {},
   level: [
     {
-      name: "Beginner",
-      description: "",
-      icon: "images/puzzle.png",
+      name: 'Beginner',
+      description: '',
+      icon: 'images/puzzle.png',
       blocks: [
         {
-          name: "%{BKY_YY_MENU_MOVE}",
-          icon: "images/tire.png",
-          clolor: "#e64c3c",
+          name: '%{BKY_YY_MENU_MOVE}',
+          icon: 'images/tire.png',
+          clolor: '#f2e994',
           blocks: [
             {
               xml: '<label text="%{BKY_YY_MENU_MOVE_YYCAR}"></label>',
             },
-            "yy_car_forward",
-            "yy_car_backward",
-            "yy_car_turn_left",
-            "yy_car_turn_right",
+            'yy_car_forward',
+            'yy_car_backward',
+            'yy_car_turn_left',
+            'yy_car_turn_right',
             {
               xml: `
                                 <block type="yy_car_move">
@@ -94,38 +94,38 @@ addBoard({
                                 </block>
                             `,
             },
-            "yy_car_stop",
-            "yy_car_set_speed",
-            "yy_car_get_speed",
+            'yy_car_stop',
+            'yy_car_set_speed',
+            'yy_car_get_speed',
           ],
         },
         {
-          name: "%{BKY_YY_MENU_RCONTROL}",
-          icon: "images/joystick.png",
-          color: "#e64c3c",
+          name: '%{BKY_YY_MENU_RCONTROL}',
+          icon: 'images/joystick.png',
+          color: '#f2e994',
           blocks: [
             {
               xml: '<label text="%{BKY_YY_MENU_RCONTROL_JOY}"></label>',
             },
-            "yy_set_joystick",
-            "yy_get_joystick",
-            "yy_joystick_get_key",
-            "yy_get_joystick_key2",
-            "yy_get_joystick_rocker",
-            "yy_clear_joystick",
+            'yy_set_joystick',
+            'yy_get_joystick',
+            'yy_joystick_get_key',
+            'yy_get_joystick_key2',
+            'yy_get_joystick_rocker',
+            'yy_clear_joystick',
           ],
         },
         {
-          name: "%{BKY_YY_MENU_DISPLAY}",
-          icon: "images/tm1637.png",
-          color: "#e64c3c",
+          name: '%{BKY_YY_MENU_DISPLAY}',
+          icon: 'images/tm1637.png',
+          color: '#f2e994',
           blocks: [
             {
               xml: '<label text="%{BKY_YY_MENU_DISPLAY_TM1637}"></label>',
             },
-            "yy_display_set",
-            "yy_display_angle",
-            "yy_display_speed",
+            'yy_display_set',
+            'yy_display_angle',
+            'yy_display_speed',
             {
               xml: `
                                 <block type="yy_display_show">
@@ -186,16 +186,16 @@ addBoard({
                                 </block>
                             `,
             },
-            "yy_display_clear",
+            'yy_display_clear',
           ],
         },
         {
-          name: "%{BKY_YY_MENU_SHOOT}",
-          icon: "images/shoot.png",
-          color: "#e64c3c",
+          name: '%{BKY_YY_MENU_SHOOT}',
+          icon: 'images/shoot.png',
+          color: '#f2e994',
           blocks: [
-            "yy_set_basketball",
-            "yy_shoot_basketball",
+            'yy_set_basketball',
+            'yy_shoot_basketball',
             {
               xml: `
                                 <block type="yy_turn_basketball">
@@ -218,13 +218,13 @@ addBoard({
                                 </block>
                             `,
             },
-            "yy_ball_turn_angle",
+            'yy_ball_turn_angle',
           ],
         },
         {
-          name: "%{BKY_YY_MENU_PIN}",
-          icon: "/images/icon/led.png",
-          color: "#e64c3c",
+          name: '%{BKY_YY_MENU_PIN}',
+          icon: '/images/icon/led.png',
+          color: '#f2e994',
           blocks: [
             {
               xml: `
@@ -283,9 +283,9 @@ addBoard({
           ],
         },
         {
-          name: "%{BKY_YY_MENU_CONTROL}",
+          name: '%{BKY_YY_MENU_CONTROL}',
           icon: `/images/icon/process.png`,
-          color: "#fbbd5e",
+          color: '#fbbd5e',
           blocks: [
             {
               xml: `
@@ -298,8 +298,8 @@ addBoard({
                                 </block>
                             `,
             },
-            "controls_forever",
-            "controls_flow_statements",
+            'controls_forever',
+            'controls_flow_statements',
             {
               xml: `
                                 <block type="controls_repeat_ext">
@@ -333,7 +333,7 @@ addBoard({
                                 </block>
                           `,
             },
-            "controls_if",
+            'controls_if',
             {
               xml: `
                                 <block type="controls_if">
@@ -341,19 +341,19 @@ addBoard({
                                 </block>
                             `,
             },
-            "controls_wait_until",
-            "controls_whileUntil",
+            'controls_wait_until',
+            'controls_whileUntil',
           ],
         },
         {
-          name: "%{BKY_YY_MENU_GENERIC}",
+          name: '%{BKY_YY_MENU_GENERIC}',
           icon: `/images/icon/maths.png`,
-          color: "#293939",
+          color: '#293939',
           blocks: [
             {
               xml: '<label text="%{BKY_YY_MENU_GENERIC_MATH}"></label>',
             },
-            "yy_number",
+            'yy_number',
             {
               xml: `
                                 <block type="math_arithmetic">
@@ -448,13 +448,13 @@ addBoard({
                             `,
             },
 
-            "logic_operation",
-            "logic_negate",
+            'logic_operation',
+            'logic_negate',
             {
               xml: '<label text="%{BKY_YY_MENU_GENERIC_TEXT}"></label>',
             },
-            "text",
-            "text_join",
+            'text',
+            'text_join',
             {
               xml: `
                                 <block type="yy_number_2_text">
@@ -486,21 +486,21 @@ addBoard({
           ],
         },
         {
-          name: "%{BKY_YY_MENU_VARIABLE}",
+          name: '%{BKY_YY_MENU_VARIABLE}',
           icon: `/images/icon/relativity.png`,
-          color: "#ac5e2e",
-          blocks: "VARIABLE",
+          color: '#ac5e2e',
+          blocks: 'VARIABLE',
         },
         {
-          name: "%{BKY_YY_MENU_FUNCTION}",
+          name: '%{BKY_YY_MENU_FUNCTION}',
           icon: `/images/icon/jigsaw.png`,
-          color: "#17A589",
-          blocks: "PROCEDURE",
+          color: '#17A589',
+          blocks: 'PROCEDURE',
         },
         {
-          name: "%{BKY_YY_MENU_ADVANCED}",
+          name: '%{BKY_YY_MENU_ADVANCED}',
           icon: `/images/icon/expert.png`,
-          color: "#8E44AD",
+          color: '#8E44AD',
           blocks: [
             {
               xml: '<label text="%{BKY_YY_MENU_ADVANCED_DEBUG}"></label>',
@@ -568,7 +568,7 @@ addBoard({
             {
               xml: '<label text="%{BKY_YY_MENU_ADVANCED_THREAD}"></label>',
             },
-            "run_in_background",
+            'run_in_background',
             {
               xml: '<label text="%{BKY_YY_MENU_ADVANCED_POWER}"></label>',
             },
@@ -595,11 +595,11 @@ addBoard({
                             `,
             },
             // "is_woke_from_deep_sleep",
-            "board_reset",
+            'board_reset',
             //"yy_get_voltage",
           ],
         },
       ],
     },
   ],
-});
+})

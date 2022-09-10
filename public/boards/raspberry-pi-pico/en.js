@@ -112,7 +112,7 @@ Blockly.Msg['YY_MENU_RCONTROL_JOY_GET_ROCKER_L'] = 'Left'
 Blockly.Msg['YY_MENU_RCONTROL_JOY_GET_ROCKER_R'] = 'Right'
 
 Blockly.Msg['YY_MENU_RCONTROL_IR'] = 'IR'
-Blockly.Msg['YY_MENU_RCONTROL_IR_GET'] = 'Receive InfraRed instruction %1 %2 '
+Blockly.Msg['YY_MENU_RCONTROL_IR_GET'] = 'InfraRed Instruction %1 %2 '
 Blockly.Msg['YY_MENU_RCONTROL_IR_GET_KEY'] =
   'When InfraRed key value is %1 %2 %3'
 Blockly.Msg['YY_MENU_RCONTROL_IR_GET_KEY_VAL'] = 'Read InfraRed key value'

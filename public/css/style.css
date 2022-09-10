@@ -42,7 +42,7 @@ body {
 
 #full-loading > .box > .label {
     font-size: 36px;
-    color: #F1C40F;
+    color: #0093b7;
     font-weight: bold;
 }
 
@@ -305,7 +305,7 @@ ul.switch-mode > li:last-child {
     font-size: 22px;
     margin-right: 14px;
     border: none;
-    background-color: #24506b;
+    background-color: #3b5a6e;
     color: #FFF;
 }
 
@@ -574,7 +574,7 @@ ul.switch-mode > li:last-child {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #F1C40F;
+    background-color: #0093b7;
     border-radius: 10px 10px 0 0;
     box-shadow: 0 10px 10px -8px rgb(0 0 0 / 26%);
     z-index: 999999;
@@ -596,7 +596,7 @@ ul.switch-mode > li:last-child {
 .dialog > header > .icon > button {
     padding: 0 20px;
     height: 100%;
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
     border: none;
     outline: none;
@@ -609,7 +609,7 @@ ul.switch-mode > li:last-child {
 }
 
 .dialog > header > .icon > button:hover {
-    background-color: #D4AC0D;
+    background-color: #005f89;
 }
 
 .dialog > section {
@@ -699,7 +699,7 @@ ul.switch-mode > li:last-child {
 }
 
 .add-extension-box button {
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
     padding: 10px 12px;
     border: none;
@@ -710,7 +710,7 @@ ul.switch-mode > li:last-child {
 }
 
 .add-extension-box button:hover {
-    background-color: #D4AC0D;
+    background-color: #005f89;
 }
 
 .add-extension-box button[type="reset"] {
@@ -732,12 +732,12 @@ ul.switch-mode > li:last-child {
     outline: none;
     text-align: center;
     transition: border 300mS, width 300mS;
-    border: 2px solid #F1C40F;
+    border: 2px solid #0093b7;
     width: 140px;
 }
 
 #extension-keyword:focus {
-    border: 2px solid #D4AC0D;
+    border: 2px solid #005f89;
     width: 200px;
 }
 
@@ -777,7 +777,7 @@ ul.switch-mode > li:last-child {
 }
 
 .extension-category-list > li.active {
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
 }
 
@@ -900,7 +900,7 @@ ul.switch-mode > li:last-child {
     font-size: 12px;
     padding: 2px 3px;
     border-radius: 2px;
-    background-color: #E74C3C;
+    background-color: #eda864;
     color: #FFF;
 }
 
@@ -1038,7 +1038,7 @@ ul.switch-mode > li:last-child {
 }
 
 #github-dialog > section > header > ul > li.active {
-    border-bottom: 3px solid #F1C40F;
+    border-bottom: 3px solid #0093b7;
 }
 
 #github-dialog > section > section > ul {
@@ -1059,7 +1059,7 @@ ul.switch-mode > li:last-child {
 }
 
 #github-dialog > section > section > ul > li.active {
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
 }
 
@@ -1103,7 +1103,7 @@ ul.switch-mode > li:last-child {
 }
 
 #github-dialog > section > section .control-button > button {
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
     border: none;
     border-radius: 4px;
@@ -1112,7 +1112,7 @@ ul.switch-mode > li:last-child {
 }
 
 #github-dialog > section > section .control-button > button:hover {
-    background-color: #D4AC0D;
+    background-color: #005f89;
 }
 
 #github-dialog-open {
@@ -1189,7 +1189,7 @@ ul.switch-mode > li:last-child {
 }
 
 #port-select-dialog > section > section > ul > li.active {
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
 }
 
@@ -1199,7 +1199,7 @@ ul.switch-mode > li:last-child {
 }
 
 #port-select-dialog > section > section > .control-button > button {
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
     border: none;
     border-radius: 4px;
@@ -1208,7 +1208,7 @@ ul.switch-mode > li:last-child {
 }
 
 #port-select-dialog > section > section > .control-button > button:hover {
-    background-color: #D4AC0D;
+    background-color: #005f89;
 }
 
 #project-create-dialog {
@@ -1293,7 +1293,7 @@ ul.switch-mode > li:last-child {
 }
 
 #project-create-dialog > section button {
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
     border: none;
     border-radius: 4px;
@@ -1302,7 +1302,7 @@ ul.switch-mode > li:last-child {
 }
 
 #project-create-dialog > section button:hover {
-    background-color: #D4AC0D;
+    background-color: #005f89;
 }
 
 
@@ -1335,7 +1335,7 @@ ul.switch-mode > li:last-child {
 }
 
 .image-select > ul > li > div.active {
-    border: 3px solid #F1C40F;
+    border: 3px solid #0093b7;
 }
 
 .image-select > ul > li > div > .image {
@@ -1497,7 +1497,7 @@ ul.switch-mode > li:last-child {
     display: inline-block;
     margin: auto;
 
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
     border: none;
     border-radius: 4px;
@@ -1507,7 +1507,7 @@ ul.switch-mode > li:last-child {
 }
 
 #firmware-upgrade-dialog  > section > section > article button:hover {
-    background-color: #D4AC0D;
+    background-color: #005f89;
 }
 
 #firmware-upgrade-dialog  > section > section > article button:disabled {
@@ -1516,7 +1516,7 @@ ul.switch-mode > li:last-child {
 }
 
 #firmware-upgrade-dialog  > section > section > article button:disabled:hover {
-    background-color: #F1C40F;
+    background-color: #0093b7;
 }
 
 #firmware-upgrade-dialog  > section > section > article button#continue-upload {
@@ -1534,7 +1534,7 @@ ul.switch-mode > li:last-child {
 }
 
 #firmware-upgrade-dialog  > section > section > article.todo > .icon {
-    color: #F1C40F;
+    color: #0093b7;
 }
 
 #firmware-upgrade-dialog  > section > section > article.doing > .icon.loading {
@@ -1568,7 +1568,7 @@ ul.switch-mode > li:last-child {
 }
 
 #firmware-upgrade-dialog  > section > section > article.done > .icon.fail {
-    color: #E74C3C;
+    color: #eda864;
 }
 
 #firmware-upgrade-dialog  > section > section > article > .warning {
@@ -1746,7 +1746,7 @@ ul.switch-mode > li:last-child {
 }
 
 .example-list > ul > li.active > a {
-    background-color: #F1C40F;
+    background-color: #0093b7;
     color: #FFF;
 }
 

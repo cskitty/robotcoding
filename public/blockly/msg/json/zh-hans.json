@@ -201,7 +201,7 @@
 	"MATH_CONSTRAIN_TITLE": "将 %1 限制在 最低 %2 到最高 %3 之间",
 	"MATH_CONSTRAIN_TOOLTIP": "将一个数值限制在两个指定的数值范围（含边界）之间。",
 	"MATH_RANDOM_INT_HELPURL": "https://zh.wikipedia.org/wiki/随机数生成器",
-	"MATH_RANDOM_INT_TITLE": "从 %1 到 %2 范围内的随机整数",
+	"MATH_RANDOM_INT_TITLE": "从 %1 到 %2 range内的随机整数",
 	"MATH_RANDOM_INT_TOOLTIP": "返回一个限制在两个指定数值的范围（含边界）之间的随机整数。",
 	"MATH_RANDOM_FLOAT_HELPURL": "https://zh.wikipedia.org/wiki/随机数生成器",
 	"MATH_RANDOM_FLOAT_TITLE_RANDOM": "随机小数",

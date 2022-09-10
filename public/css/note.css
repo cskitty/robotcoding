@@ -123,11 +123,11 @@
 }
 
 .note-box-main.red {
-    border-color: #E74C3C;
+    border-color: #eda864;
 }
 
 .note-box-main.red > header {
-    color: #E74C3C;
+    color: #eda864;
 }
 
 .note-box-main.grey {
@@ -210,7 +210,7 @@
 }
 
 .note-box-main > footer > ul.color-list > li > span.red {
-    background-color: #E74C3C;
+    background-color: #eda864;
 }
 
 .note-box-main > footer > ul.color-list > li > span.grey {
@@ -233,7 +233,7 @@
     border: none;
     padding: 0;
     display: inline-block;
-    color: #E74C3C;
+    color: #eda864;
     outline: none;
     transition: all 100mS;
     cursor: pointer;
