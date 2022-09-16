@@ -1,0 +1,12 @@
+[
+  {
+    "id":110,
+    "name":"WTCar8285",
+    "icon":"/extension/icons/yyminicar.jpg",
+    "file":"wtcar8285.py",
+    "desc":"WindTree 8285 Motor",
+    "ver":"1.0",
+    "color":"#333333"
+  }
+  
+]

@@ -1,3 +1,6 @@
+Blockly.Msg['WR_MENU_8285_MOVE_CAR'] = 'ESP8285 小车'
+Blockly.Msg['WR_MENU_8285_MOVE_CAR_BACKWARD'] = '小车后退 %1 秒'
+
 Blockly.Msg['YY_MENU_MOVE'] = '移动'
 Blockly.Msg['YY_MENU_MOVE_YYCAR'] = '小车'
 Blockly.Msg['YY_MENU_MOVE_CAR_STOP'] = '小车停止'

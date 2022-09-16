@@ -1,3 +1,6 @@
+Blockly.Msg['WR_MENU_8285_MOVE_CAR'] = 'Junior Robotics Car'
+Blockly.Msg['WR_MENU_8285_MOVE_CAR_BACKWARD'] = 'Car backward %1 second '
+
 Blockly.Msg['YY_MENU_MOVE'] = 'Robotics'
 Blockly.Msg['YY_MENU_MOVE_YYCAR'] = 'Robotics Car'
 Blockly.Msg['YY_MENU_MOVE_CAR_STOP'] = 'Car stop'

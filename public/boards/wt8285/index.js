@@ -1,8 +1,9 @@
 addBoard({
-  id: 'esp32',
-  name: 'Windtree Robotics',
+  id: 'wt8285',
+  name: 'Windtree Junior Robotics',
   description: '',
-  image: 'images/r3.png',
+  image: 'images/cover.png',
+  uploadMode: 'REPL',
   chip: 'ESP32',
   script: [
     // "js/field_bitmap.js",
@@ -20,13 +21,7 @@ addBoard({
     'blocks/generators_avanced.js',
   ],
   modules: [],
-  examples: [
-    `${yy_msg['EX_CAR']}`,
-    {
-      name: `${yy_msg['EX_CAR_SIMPLE']}`,
-      files: 'examples/move',
-    },
-  ],
+  examples: [],
   firmware: [
     {
       name: 'MicroPython for ESP32 Dev Board V1.6.0',
@@ -54,12 +49,11 @@ addBoard({
         {
           name: '%{BKY_YY_MENU_MOVE}',
           icon: 'images/tire.png',
-          clolor: '#f2e994',
+          clolor: '#e64c3c',
           blocks: [
             {
-              xml: '<label text="%{BKY_YY_MENU_MOVE_YYCAR}"></label>',
+              xml: '<label text="%{BKY_WR_MENU_8285_MOVE_CAR}"></label>',
             },
-            'yy_car_set_Pin',
             'yy_car_forward',
             'yy_car_backward',
             'yy_car_turn_left',
@@ -83,7 +77,7 @@ addBoard({
         {
           name: '%{BKY_YY_MENU_PIN}',
           icon: '/images/icon/led.png',
-          color: '#f2e994',
+          color: '#e64c3c',
           blocks: [
             {
               xml: `
