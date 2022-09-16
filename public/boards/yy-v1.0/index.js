@@ -1,6 +1,6 @@
 addBoard({
   id: 'yy-v1.0',
-  name: 'Windtree Ball Server(PICO) v1.0',
+  name: 'Windtree Ball Server',
   description: '',
   image: 'images/yyv1.0.jpg',
   uploadMode: 'REPL',
