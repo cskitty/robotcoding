@@ -9,30 +9,30 @@ import strokesImage from '@/images/screencasts/strokes.svg'
 
 const videos = [
   {
-    title: 'Getting started with Figma',
+    title: 'Getting started with a robot',
     description:
-      'Get familiar with the Figma UI, the different tools it offers, and the most important features.',
+      'Get familiar with the robotics, the different components it offers, and the most important features.',
     image: setupImage,
     runtime: { minutes: 16, seconds: 54 },
   },
   {
-    title: 'Setting up your artboard',
+    title: 'Programming Basics with Blockly',
     description:
-      'Learn how to create a new artboard and configure your grid and rulers for designing icons.',
+      'Learn how to create various programs for moving the robot.',
     image: gridsImage,
     runtime: { minutes: 9, seconds: 12 },
   },
   {
-    title: 'Designing your first icon',
+    title: 'Creating programs to drive the robot ',
     description:
-      'Using basic shapes and boolean operations, learn how to design your own notification icon from scratch.',
+      'Using basic blockly programs to move the robot for different purposes.',
     image: strokesImage,
     runtime: { minutes: 23, seconds: 25 },
   },
   {
-    title: 'Advanced design techniques',
+    title: 'Putting it together with Robotics Projects',
     description:
-      'Learn the techniques you need to know to adapt your original icon to a modern duotone style.',
+      'Use the techniques you learned to design a robotics project',
     image: duotoneImage,
     runtime: { minutes: 28, seconds: 44 },
   },
@@ -62,18 +62,14 @@ export function Screencasts() {
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
       <Container>
-        <SectionHeading number="2" id="screencasts-title">
-          Screencasts
+        <SectionHeading number="1" id="screencasts-title">
+          Robotics 101
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Over an hour of high quality, step-by-step video content to sharpen
-          your icon design workflow.
+          Introduction to Robotics and Python Programming.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Learn how to design your very first icons in a series of screencasts
-          that will teach you everything you need to know to go from beginner to
-          pro in just over an hour.
-        </p>
+          Learn how to design a robot and create software programs through a series of experiments.</p>
       </Container>
       <Container size="lg" className="mt-16">
         <ol

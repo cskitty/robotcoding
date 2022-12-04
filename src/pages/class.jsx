@@ -1,14 +1,12 @@
 import Head from 'next/head'
  
-import { Hero } from '@/components/Hero'  
- 
 import { Screencasts } from '@/components/Screencasts'
- import { Header } from '@/components/Header'
- import { Footer } from '@/components/Footer'
+import { ClassHeader } from '@/components/ClassHeader'
+import { Footer } from '@/components/Footer'
 import avatarImage1 from '@/images/avatars/avatar-1.png'
 import avatarImage2 from '@/images/avatars/avatar-2.png'
 
-export default function Home() {
+export default function Class() {
   return (
     <>
       <Head>
@@ -18,7 +16,7 @@ export default function Home() {
           content="K12 Robotics Education"
         />
       </Head> 
-        <Header />
+      <ClassHeader />
       <Screencasts />
       <Footer />
     </>
