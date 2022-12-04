@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import ProtectedRoute from "../components/ProtectedRoute";
 import AuthContextProvider from "../context/AuthContext";
 
-const noAuthRequired = ["/login", "/register"];
+const noAuthRequired = ["/login", "/register", "/index"];
 
 export default function App({
   Component,

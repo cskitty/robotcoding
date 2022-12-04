@@ -63,10 +63,10 @@ export function Screencasts() {
     >
       <Container>
         <SectionHeading number="1" id="screencasts-title">
-          Robotics 101
+          Robotics 100
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Introduction to Robotics and Python Programming.
+          Introduction to Robotics and Blockly Programming.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Learn how to design a robot and create software programs through a series of experiments.</p>
