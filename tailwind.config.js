@@ -19,6 +19,9 @@ module.exports = {
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
     },
+    images: {
+      domains: ['tailwindui.com'],
+    },
     extend: {
       borderRadius: {
         '4xl': '2rem',
@@ -32,5 +35,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/forms')],
 }
